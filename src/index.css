@@ -1,0 +1,151 @@
+/* entire container */
+.transactionform-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+  border: 5px solid rgb(63, 189, 90);
+  min-width: 350px;
+}
+/* income container */
+.income-input-container{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.income-add-input{
+  margin-right: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(201, 199, 199);
+  margin-bottom: 20px;
+  width: 200px;
+  align-self: center;
+}
+.income-add-button{
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(55, 167, 32);
+  transition: transform .5s ease;
+  transition: background-color .3s ease;
+}
+.income-add-button:hover{
+  transform: scale(1.1);
+  background-color: rgb(142, 253, 120);
+  cursor: pointer;
+}
+.income-add-button:active{
+  background-color: rgb(185, 233, 175);
+  transform: scale(1.08);
+}
+.current-income-1{
+  margin-bottom: -5px;
+}
+/* expense container */
+.expense-input-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 300px;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.expense-input{
+  align-self: center;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(201, 199, 199);
+  width: 200px;
+}
+.expense-button{
+  align-self: center;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(55, 167, 32);
+  transition: transform .5s ease;
+  transition: background-color .3s ease;
+}
+.expense-button:hover{
+  transform: scale(1.03);
+  background-color: rgb(142, 253, 120);
+  cursor: pointer;
+}
+.expense-button:active{
+  background-color: rgb(185, 233, 175);
+  transform: scale(1.01);
+}
+/* expense data */
+.expense-data-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.data-label{
+  margin-bottom: -5px;
+}
+.data{
+  align-self: center;
+  margin-bottom: -5px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: rgb(201, 199, 199);
+}
+.reset-button{
+  align-self: center;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(167, 32, 32);
+  transition: transform .5s ease;
+  transition: background-color .3s ease;
+  margin-top: 25px;
+}
+.reset-button:hover{
+  transform: scale(1.03);
+  background-color: rgb(197, 100, 100);
+  cursor: pointer;
+}
+.reset-button:active{
+  background-color: rgb(206, 132, 132);
+  transform: scale(1.01);
+}
+
+.total-expenses{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -3px;
+}
+.total-expenes-data{
+  margin-bottom: -3px;
+  width: 250px;
+  border-radius: 5px;
+  background-color: rgb(233, 174, 174);
+}
+/* total container */
+.total-income-end{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -3px;
+}
+.total-data-end{
+  margin-bottom: -3px;
+  width: 250px;
+  border-radius: 5px;
+  background-color: rgb(176, 233, 174);
+}
+.total-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -3px;
+}
+.total-data{
+  margin-bottom: -3px;
+  width: 250px;
+  border-radius: 5px;
+  background-color: rgb(176, 233, 174);
+}
